@@ -1,0 +1,8 @@
+syntax = "proto3";
+package main;
+
+message Relay{
+    string id = 1;
+    string addr = 2;
+}
+
